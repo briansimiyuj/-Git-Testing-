@@ -1,0 +1,1 @@
+When you want to edit past commits, you can make the changes, then commit them. 
