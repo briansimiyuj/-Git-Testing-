@@ -3,3 +3,5 @@ When you want to edit past commits, you can make the changes, then commit them.
 Run `git log --online` to look for the commit you want to edit, in this case we want to edit {d16496f Container markup} commit. Go to the base or previous commit and copy the hash. in our case, our base commit is {f63a902 Added index file}
 
 Then run `git rebase -i <commit hash>,` in this case `git rebase -i f63a902`
+
+Then, an editor will appear in the terminal, now cut the commit you did with the new changes and paste it below the commit you want to edit with 'fixup' keyword. In our example 'fixup 8886f01 New commit'
